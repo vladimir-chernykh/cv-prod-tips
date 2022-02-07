@@ -1,1 +1,1 @@
-# Production Tips for Computer Vision models
+# Computer Vision models tips for production
