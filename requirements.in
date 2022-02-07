@@ -1,0 +1,7 @@
+jupyter
+numpy
+pillow
+heif-image-plugin
+opencv-python-headless
+scikit-image
+matplotlib
