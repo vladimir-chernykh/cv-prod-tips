@@ -1,1 +1,1 @@
-# cv-prod-tips
+# Computer Vision models tips for production
