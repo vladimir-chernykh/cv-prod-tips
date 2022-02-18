@@ -42,11 +42,11 @@ fonttools==4.29.1
     # via matplotlib
 heif-image-plugin==0.3.2
     # via -r requirements.in
-imageio==2.15.0
+imageio==2.16.0
     # via scikit-image
 importlib-resources==5.4.0
     # via jsonschema
-ipykernel==6.8.0
+ipykernel==6.9.1
     # via
     #   ipywidgets
     #   jupyter
@@ -85,7 +85,7 @@ jupyter-client==7.1.2
     #   qtconsole
 jupyter-console==6.4.0
     # via jupyter
-jupyter-core==4.9.1
+jupyter-core==4.9.2
     # via
     #   jupyter-client
     #   nbconvert
@@ -98,10 +98,12 @@ jupyterlab-widgets==1.0.2
     # via ipywidgets
 kiwisolver==1.3.2
     # via matplotlib
-markupsafe==2.0.1
+markupsafe==2.1.0
     # via jinja2
 matplotlib==3.5.1
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   seaborn
 matplotlib-inline==0.1.3
     # via
     #   ipykernel
@@ -110,9 +112,9 @@ mistune==0.8.4
     # via nbconvert
 mypy-extensions==0.4.3
     # via black
-nbclient==0.5.10
+nbclient==0.5.11
     # via nbconvert
-nbconvert==6.4.1
+nbconvert==6.4.2
     # via
     #   jupyter
     #   notebook
@@ -140,9 +142,11 @@ numpy==1.22.2
     #   imageio
     #   matplotlib
     #   opencv-python-headless
+    #   pandas
     #   pywavelets
     #   scikit-image
     #   scipy
+    #   seaborn
     #   tifffile
 opencv-python-headless==4.5.5.62
     # via -r requirements.in
@@ -152,6 +156,10 @@ packaging==21.3
     #   matplotlib
     #   qtpy
     #   scikit-image
+pandas==1.4.1
+    # via
+    #   -r requirements.in
+    #   seaborn
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.8.3
@@ -170,11 +178,11 @@ pillow==9.0.1
     #   imageio
     #   matplotlib
     #   scikit-image
-platformdirs==2.4.1
+platformdirs==2.5.0
     # via black
 prometheus-client==0.13.1
     # via notebook
-prompt-toolkit==3.0.27
+prompt-toolkit==3.0.28
     # via
     #   ipython
     #   jupyter-console
@@ -205,6 +213,9 @@ python-dateutil==2.8.2
     # via
     #   jupyter-client
     #   matplotlib
+    #   pandas
+pytz==2021.3
+    # via pandas
 pywavelets==1.2.0
     # via scikit-image
 pyzmq==22.3.0
@@ -219,7 +230,11 @@ qtpy==2.0.1
 scikit-image==0.19.1
     # via -r requirements.in
 scipy==1.8.0
-    # via scikit-image
+    # via
+    #   scikit-image
+    #   seaborn
+seaborn==0.11.2
+    # via -r requirements.in
 send2trash==1.8.0
     # via notebook
 six==1.16.0
@@ -227,15 +242,15 @@ six==1.16.0
     #   asttokens
     #   bleach
     #   python-dateutil
-stack-data==0.1.4
+stack-data==0.2.0
     # via ipython
 terminado==0.13.1
     # via notebook
 testpath==0.5.0
     # via nbconvert
-tifffile==2022.2.2
+tifffile==2022.2.9
     # via scikit-image
-tomli==2.0.0
+tomli==2.0.1
     # via black
 tornado==6.1
     # via
@@ -243,6 +258,8 @@ tornado==6.1
     #   jupyter-client
     #   notebook
     #   terminado
+tqdm==4.62.3
+    # via -r requirements.in
 traitlets==5.1.1
     # via
     #   ipykernel
@@ -256,7 +273,7 @@ traitlets==5.1.1
     #   nbformat
     #   notebook
     #   qtconsole
-typing-extensions==4.0.1
+typing-extensions==4.1.1
     # via black
 wcwidth==0.2.5
     # via prompt-toolkit
