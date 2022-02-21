@@ -1,6 +1,6 @@
 # Computer Vision models tips for production
 
-The repo contains code and data for my [**blog post**](https://link_here.com)
+The repo contains code and data for my [**blog post**](https://towardsdatascience.com/4-ways-to-mess-up-your-computer-vision-model-in-production-d4e198486928)
 
 It provides useful tips on how **not to mess up** the Computer Vision model in production. I cover **4 real cases** that I've met while working as an ML engineer. Each is related to image processing before passing it to the algorithm (mainly neural networks):
 
